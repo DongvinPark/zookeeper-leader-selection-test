@@ -24,9 +24,11 @@
 
 <br><br/>
 - 주키퍼를 실행할 리눅스 머신에서 /home/{your user name} 디렉토리에 zookeeper라는 디렉토리를 만들고,
-  <br> sudo wget {주키퍼 다운로드 https url} 명령어를 실행한다. 그러면 주키퍼 바이너리 파일이 입축된 형태로 다운로드 된다.
-  <br>주키퍼 다운로드 https url은 https://zookeeper.apache.org/releases.html 여기에서 latest stable release
-  <br>부분 아래에 있는 Apache Zookeeper 3.X.X(asc, sha512) 이 부분을 클릭했을 때 리다이렉트 되는 사이트에서
+  <br>그 디렉토리로 이동한 후, sudo wget {주키퍼 다운로드 https url} 명령어를 실행한다.
+  <br>그러면 주키퍼 바이너리 파일이 입축된 형태로 다운로드 된다.
+  <br>주키퍼 다운로드 https url은 https://zookeeper.apache.org/releases.html 여기에서
+  <br>latest stable release 부분 아래에 있는 Apache Zookeeper 3.X.X(asc, sha512)
+  <br>이 부분을 클릭했을 때 리다이렉트 되는 사이트에서
   <br>가장 상단에 존재하는 We suggess the following ... 이라는 문구 바로 아래의 url을 복사 붙여넣기 하면 된다.
   <br>그 후, sudo tar -xzf {아까 다운로드 받은 주키퍼 바이너리 압축파일 이름} 명령어를 실행해서 압축을 해제한다.
 
